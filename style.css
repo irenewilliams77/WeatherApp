@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+background: rgb(104, 104, 223);}
+
+body {
+    font-family: sans-serif;
+}
+
+.input {
+    text-align: center;
+margin: 100px 0;
+}
+
+.inputvalue {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(222, 224, 241);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size-adjust: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(222, 224, 241);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size-adjust: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.display {
+    text-align: center;
+    font-size: larger;
+    
+}
