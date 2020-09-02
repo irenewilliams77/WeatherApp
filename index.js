@@ -11,7 +11,7 @@ button.addEventListener('click', function(){
     .then(data => {
         var nameValue = data['name'];
         var tempValue = data['main']['temp'];
-        var descValue = data['weather']['main'];
+        var descValue = data['weather'][0]['main'];
     
         name.innerHTML = nameValue;
         temp.innerHTML = tempValue;
